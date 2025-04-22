@@ -1,0 +1,26 @@
+{
+    "aprendiz": [
+        {
+            "id": "1",
+            "nombre": "tito",
+            "apellido": "pipo",
+            "Matricula": true,
+            "email": "titopipo@gmail.com"
+        },
+        {
+            "id": "2",
+            "nombre": "qwerty",
+            "apellido": "asdf",
+            "Matricula": true,
+            "email": "qwerty.asdf@gmail.com"
+        },
+        {
+            "id": "3",
+            "nombre": "tulio",
+            "apellido": "pipo",
+            "Matricula": true,
+            "email": "tulio.2@gmail.com"
+        }
+        
+    ]
+}

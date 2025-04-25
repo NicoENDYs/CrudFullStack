@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-8 text-center mt-5 mb-5" >
+                <div class="mb-3">
+                </div>
+
+                <form action="" id="formEditar" class="text-white p-4 border border-black border-4 p-5">
+                <div class="mb-3">
+                    <h1 class="text-white fw-bold">Editar Usuarios</h1>
+                    <label for="elementos-select" class="form-label text-light fw-bold">Ingrese la ID a modificar:</label>
+                    <input type="number" name="id" class="form-control fw-bold fs-3" id="id" placeholder="ID del estudiante" required>
+                </div>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre del estudiante" >
+                </div>
+                <div class="mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Apellido del estudiante" >
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email del estudiante" >
+                </div>
+                <div class="mb-3">
+                    <label for="matricula" class="form-label">Matricula</label>
+                    <select name="matricula" class="form-select" id="matricula" id="matricula">
+                        <option value="true">Si</option>
+                        <option value="false">No</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary w-100" id="btnActualizar">Actualizar Estudiante</button>
+
+                </form>
+
+
+
+                <br><br>
+                <a href="./index.html" class="btn btn-danger bi bi-x-circle-fill w-100" id="btnCancelar"> Cancelar</a>
+                
+            </div>
+        </div>
+    </div>
+
+    
+<script src="./assets/js/bootstrap.esm.min.js.map"></script>
+<script src="./editar.js"></script>
+</body>
+
+</html>
